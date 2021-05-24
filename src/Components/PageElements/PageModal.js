@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Dialog, IconButton, makeStyles, Typography } from '@material-ui/core';
-import { CandC, Flux8, PlanetMiner, Vrrrr, WebSpares } from '../../Pages/Projects';
+import { CandC, Flux8, HoverHavoc, PlanetMiner, Vrrrr, WebSpares } from '../../Pages/Projects';
 import { Close } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
             padding: '40px 20px'
         }
     },
-    closeButton:{
+    closeButton: {
         position: 'absolute',
         right: '10px'
     }
@@ -30,6 +30,8 @@ function PageModalRender({ open, currentPage, onClose }) {
                 return <PlanetMiner />;
             case 'Vrrrr':
                 return <Vrrrr />;
+            case 'HoverHavoc':
+                return <HoverHavoc />;
             case 'WebSpares':
                 return <WebSpares />;
             default:

@@ -1,5 +1,6 @@
-export {default as Flux8} from './Flux8';
-export {default as CandC} from './CandC';
-export {default as PlanetMiner} from './PlanetMiner';
-export {default as Vrrrr} from './Vrrrr';
-export {default as WebSpares} from './WebSpares';
+export {default as Flux8} from './Games/Flux8';
+export {default as CandC} from './Games/CandC';
+export {default as PlanetMiner} from './Games/PlanetMiner';
+export {default as Vrrrr} from './Games/Vrrrr';
+export {default as HoverHavoc} from './Games/HoverHavoc';
+export {default as WebSpares} from './Web/WebSpares';

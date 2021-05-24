@@ -26,7 +26,7 @@ export default function GamesSection({openModal}) {
                 <CircleButton text='Flux 8' image={flux8}  onClick={() => { openModal('Flux8')}} descriptor="Flux 8 is a puzzle platformer developed while at Canalside Studios for PC, Mac and Linux, that was then ported to Nintendo Switch." />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <CircleButton text='Hover Havoc Winter Update' image={HoverHavoc} onClick={() => {openModal('WebSpares') }} descriptor="Hover Havoc is a couch coop party brawler. While at Canalside Studios we updated last years game adding new maps, implemented unused assets, and performed some optimization for a christmas sale" />
+                <CircleButton text='Hover Havoc Winter Update' image={HoverHavoc} onClick={() => {openModal('HoverHavoc') }} descriptor="Hover Havoc is a couch coop party brawler. While at Canalside Studios we updated last years game adding new maps, implemented unused assets, and performed some optimization for a christmas sale" />
             </Grid>
         </Grid>
         <Spacer />

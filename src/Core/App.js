@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Layout from "../Components/Helpers/Layout";
 import Home from "../Pages/Home"
-import { CandC, Flux8, PlanetMiner, Vrrrr, WebSpares } from "../Pages/Projects";
+import { CandC, Flux8, HoverHavoc, PlanetMiner, Vrrrr, WebSpares } from "../Pages/Projects";
 
 function App() {
 
@@ -24,6 +24,9 @@ function App() {
           </Route>
           <Route path="/Vrrrr">
             <Vrrrr />
+          </Route>
+          <Route path="/HoverHavoc">
+            <HoverHavoc />
           </Route>
           <Route path="/WebSpares">
             <WebSpares />

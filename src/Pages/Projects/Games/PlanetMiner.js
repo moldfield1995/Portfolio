@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Link, makeStyles, Typography } from '@material-ui/core';
-import Spacer from '../../Components/Helpers/Spacer';
+import Spacer from '../../../Components/Helpers/Spacer';
 
 const useStyles = makeStyles((theme) => ({
     youtube: {
@@ -13,9 +13,9 @@ const useStyles = makeStyles((theme) => ({
 export default function PlanetMiner() {
     const classes = useStyles();
     return <Container maxWidth="md" >
-        <Typography variant="h2" align="center">Flux 8</Typography>
+        <Typography variant="h2" align="center">Planet Miner</Typography>
         <Spacer />
-        <iframe width="560" height="512" src="https://www.youtube.com/embed/EXOLqQ-7KPQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className={classes.youtube}></iframe>
+        <iframe width="560" height="512" src="https://www.youtube.com/embed/73jnusAjX0I" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className={classes.youtube}></iframe>
         <Spacer />
         <Typography variant="body1">
             This project is a recreation of one of the mechanics in the game Eve Online called <Link href="https://i.ytimg.com/vi/4zU6hmUdKBM/maxresdefault.jpg" target="_blank" rel="noopener noreferrer" color="secondary">Planet Interaction. </Link><br/>
