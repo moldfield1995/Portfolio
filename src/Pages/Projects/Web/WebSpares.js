@@ -23,7 +23,8 @@ export default function WebSpares() {
     return <Container maxWidth="md" >
         <Typography variant="h2" align="center">Web Spares</Typography>
         <Spacer />
-        <ImageGallery items={Images} showFullscreenButton infinite showThumbnails showPlayButton={false}></ImageGallery>
+        <ImageGallery items={Images} showFullscreenButton infinite showThumbnails showPlayButton={false} ></ImageGallery>
+        <Typography variant="body2" align="center"> Developed with: .Net Framework, Umbraco, Merchello </Typography>
         <Spacer />
         <Typography variant="body1">
             Web Spares is Ecommerce site that brakes down assemblies into their individual parts, with matching interactive svg that highlights parts when hovered over in the product table and in the svg.<br />

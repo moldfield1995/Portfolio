@@ -25,6 +25,7 @@ export default function UniformExchange() {
         <Typography variant="h2" align="center">Uniform Exchange Uniform Request</Typography>
         <Spacer />
         <ImageGallery items={Images} showFullscreenButton infinite showThumbnails showPlayButton={false}></ImageGallery>
+        <Typography variant="body2" align="center"> Developed with: .Net Core, React.js, Material UI </Typography>
         <Spacer />
         <Typography variant="body1">
             Uniform Exchange is a digitization of a uniform request form for the charity, to make it easier for parents and schools to make requests and for the charity to manage them. <br />

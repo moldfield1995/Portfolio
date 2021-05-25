@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Dialog, IconButton, makeStyles, Typography } from '@material-ui/core';
-import { CandC, DairyDrop, Flux8, HoverHavoc, PlanetMiner, Servico, SocialSender, UniformExchange, VentureTax, Vrrrr, WebSpares } from '../../Pages/Projects';
+import { AzureSalesAnalyst, CandC, DairyDrop, DocumentDigitization, Flux8, HoverHavoc, MarineTest, PlanetMiner, Servico, SocialSender, UniformExchange, VentureTax, Vrrrr, WebSpares } from '../../Pages/Projects';
 import { Close } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
@@ -44,6 +44,12 @@ function PageModalRender({ open, currentPage, onClose }) {
                 return <Servico />;
             case 'VentureTax':
                 return <VentureTax />;
+            case 'AzureSalesAnalyst':
+                return <AzureSalesAnalyst />;
+            case 'DocumentDigitization':
+                return <DocumentDigitization />;
+            case 'MarineTest':
+                return <MarineTest />;
             default:
                 return null;
         }

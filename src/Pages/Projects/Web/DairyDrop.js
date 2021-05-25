@@ -22,6 +22,7 @@ export default function DairyDrop() {
         <Typography variant="h2" align="center">Dairy Drop</Typography>
         <Spacer />
         <ImageGallery items={Images} showFullscreenButton infinite showThumbnails showPlayButton={false}></ImageGallery>
+        <Typography variant="body2" align="center"> Developed with: .Net Core, React.js, Material UI </Typography>
         <Spacer />
         <Typography variant="body1">
             Dairy drop is a milk man delivery subscription service, that allows customers connect directly to dairies near them. <br />

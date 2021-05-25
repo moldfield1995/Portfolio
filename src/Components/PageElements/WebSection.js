@@ -50,16 +50,13 @@ export default function WebSection({openModal}) {
         </Typography>
         <Grid container spacing={2}>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <CircleButton text='Quote Process Digitization' icon={<Receipt/>} backgroundColor='#ffffff' onClick={() => { }} descriptor="REDC" />
+                <CircleButton text='Azure Sales Analyst' image={azureIcon} backgroundColor='#ffffff' onClick={() => {openModal('AzureSalesAnalyst') }} descriptor="A tool that took azure cloud customers and pricing, along side a dynamic query service, to generate pertenshal upsells" />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <CircleButton text='Azure Sales Analyst' image={azureIcon} backgroundColor='#ffffff' onClick={() => { }} descriptor="CSP" />
+                <CircleButton text='Marine Test and Documentation' icon={<DirectionsBoat/>} backgroundColor='#ffffff' onClick={() => { openModal('MarineTest')}} descriptor="A mobile and web application to test yacht crew and track their certification" />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <CircleButton text='Document Digitization and generation' icon={<Description/>} backgroundColor='#ffffff' onClick={() => { }} descriptor="PPU" />
-            </Grid>
-            <Grid item xs={12} sm={6} md={4} lg={3}>
-                <CircleButton text='Marine Test and Documentation' icon={<DirectionsBoat/>} backgroundColor='#ffffff' onClick={() => { }} descriptor="Sentine" />
+                <CircleButton text='Document Digitization and generation' icon={<Description/>} backgroundColor='#ffffff' onClick={() => {openModal('DocumentDigitization') }} descriptor="A web application that modernized and digitized an existing company workflow" />
             </Grid>
         </Grid>
     </Container>

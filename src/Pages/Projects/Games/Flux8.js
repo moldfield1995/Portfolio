@@ -16,6 +16,7 @@ export default function Flux8() {
         <Typography variant="h2" align="center">Flux 8</Typography>
         <Spacer />
         <iframe width="560" height="512" src="https://www.youtube.com/embed/EXOLqQ-7KPQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className={classes.youtube}></iframe>
+        <Typography variant="body2" align="center"> Developed with: Unity </Typography>
         <Spacer />
         <Typography variant="body1">
             This project was part of my one year placement at Canalside Studios and then further developed while at Torchbearer to port the game to the Nintendo. Flux8 was conceptualized when I attempted to stick a magnetic board wiper to a nonmagnetic board and it grew from there.<br/>

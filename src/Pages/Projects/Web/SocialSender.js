@@ -24,6 +24,7 @@ export default function SocialSender() {
         <Typography variant="h2" align="center">Social Sender</Typography>
         <Spacer />
         <ImageGallery items={Images} showFullscreenButton infinite showThumbnails showPlayButton={false}></ImageGallery>
+        <Typography variant="body2" align="center"> Developed with: .Net Core, Hangfire, React.js, Material UI </Typography>
         <Spacer />
         <Typography variant="body1">
             Social Sender is a social media scheduler and automation app that give and suggests content that are in the categories that are selected, then allow you to customize it or create your own.<br />

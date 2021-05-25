@@ -9,3 +9,6 @@ export {default as SocialSender} from './Web/SocialSender';
 export {default as DairyDrop} from './Web/DairyDrop';
 export {default as Servico} from './Web/Servico';
 export {default as VentureTax} from './Web/VentureTax';
+export {default as AzureSalesAnalyst} from './Web/AzureSalesAnalyst';
+export {default as DocumentDigitization} from './Web/DocumentDigitization';
+export {default as MarineTest} from './Web/MarineTest';

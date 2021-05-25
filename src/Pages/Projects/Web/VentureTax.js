@@ -29,6 +29,7 @@ export default function VentureTax() {
         <Typography variant="h2" align="center">Venture Tax</Typography>
         <Spacer />
         <ImageGallery items={Images} showFullscreenButton infinite showThumbnails showPlayButton={false}></ImageGallery>
+        <Typography variant="body2" align="center"> Developed with: .Net Core MVC, Pirana CMS </Typography>
         <Spacer />
         <Typography variant="body1">
             Venture tax was a website deigned by torchbearer and built within Pirana CMS<br />

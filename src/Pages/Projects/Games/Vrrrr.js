@@ -16,6 +16,7 @@ export default function Vrrrr() {
         <Typography variant="h2" align="center">Vrrrr</Typography>
         <Spacer />
         <iframe width="560" height="512" src="https://www.youtube.com/embed/8tm5TMq_3SU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className={classes.youtube}></iframe>
+        <Typography variant="body2" align="center"> Developed with: Unreal Engine </Typography>
         <Spacer />
         <Typography variant="body1">
             This was a one-week game jam that was done in Canalside near the holidays. A few members had been interested in doing a project in VR and after some deliberation this was what was settled on.<br/>

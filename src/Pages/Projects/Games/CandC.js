@@ -16,6 +16,7 @@ export default function CandC() {
         <Typography variant="h2" align="center">Command and Crumble</Typography>
         <Spacer />
         <iframe width="560" height="512" src="https://www.youtube.com/embed/gx67KOLWnjI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className={classes.youtube}></iframe>
+        <Typography variant="body2" align="center"> Developed with: Unity </Typography>
         <Spacer />
         <Typography variant="body1">
             This is my current group project game that we are developing. There are 3 programmers including myself and 4 designers.<br/>

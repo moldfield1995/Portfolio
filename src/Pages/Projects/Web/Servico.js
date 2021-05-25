@@ -22,6 +22,7 @@ export default function Servico() {
         <Typography variant="h2" align="center">Servico</Typography>
         <Spacer />
         <ImageGallery items={Images} showFullscreenButton infinite showThumbnails showPlayButton={false}></ImageGallery>
+        <Typography variant="body2" align="center"> Developed with: .Net Core MVC, Pirana CMS </Typography>
         <Spacer />
         <Typography variant="body1">
             Servico was a site that we where contracted to create by a design agency that we work with on custom CMS websites.<br />

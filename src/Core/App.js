@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Layout from "../Components/Helpers/Layout";
 import Home from "../Pages/Home"
-import { CandC, DairyDrop, Flux8, HoverHavoc, PlanetMiner, Servico, SocialSender, UniformExchange, VentureTax, Vrrrr, WebSpares } from "../Pages/Projects";
+import { AzureSalesAnalyst, CandC, DairyDrop, DocumentDigitization, Flux8, HoverHavoc, MarineTest, PlanetMiner, Servico, SocialSender, UniformExchange, VentureTax, Vrrrr, WebSpares } from "../Pages/Projects";
 
 function App() {
 
@@ -45,6 +45,15 @@ function App() {
           </Route>
           <Route path="/VentureTax">
             <VentureTax />
+          </Route>
+          <Route path="/AzureSalesAnalyst">
+            <AzureSalesAnalyst />
+          </Route>
+          <Route path="/DocumentDigitization">
+            <DocumentDigitization />
+          </Route>
+          <Route path="/MarineTest">
+            <MarineTest />
           </Route>
         </Switch>
       </Router>
