@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Layout from "../Components/Helpers/Layout";
 import Home from "../Pages/Home"
-import { CandC, Flux8, HoverHavoc, PlanetMiner, UniformExchange, Vrrrr, WebSpares } from "../Pages/Projects";
+import { CandC, DairyDrop, Flux8, HoverHavoc, PlanetMiner, Servico, SocialSender, UniformExchange, VentureTax, Vrrrr, WebSpares } from "../Pages/Projects";
 
 function App() {
 
@@ -33,6 +33,18 @@ function App() {
           </Route>
           <Route path="/UniformExchange">
             <UniformExchange />
+          </Route>
+          <Route path="/SocialSender">
+            <SocialSender />
+          </Route>
+          <Route path="/DairyDrop">
+            <DairyDrop />
+          </Route>
+          <Route path="/Servico">
+            <Servico />
+          </Route>
+          <Route path="/VentureTax">
+            <VentureTax />
           </Route>
         </Switch>
       </Router>

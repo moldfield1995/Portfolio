@@ -32,16 +32,16 @@ export default function WebSection({openModal}) {
                 <CircleButton text='Uniform Exchange' image={uniformExchange} backgroundColor='#ffffff' onClick={() => {openModal('UniformExchange') }} descriptor="A digitized version of Uniform Exchange uniform request's system to allow families in need get new uniforms" />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <CircleButton text='Social Sender' image={socialSendr} backgroundColor='#ffffff' onClick={() => { }} descriptor="An Automated social media poster that suggested scheduled content and allows you to customize or create your own" />
+                <CircleButton text='Social Sender' image={socialSendr} backgroundColor='#ffffff' onClick={() => { openModal('SocialSender')}} descriptor="An Automated social media poster that suggested scheduled content and allows you to customize or create your own" />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <CircleButton text='Dairy Drop' image={dairyDrop} backgroundColor='#ffffff' onClick={() => { }} descriptor="Diary drop allows diary's to easily connect with users, allowing them to receive products to there door every week" />
+                <CircleButton text='Dairy Drop' image={dairyDrop} backgroundColor='#ffffff' onClick={() => { openModal('DairyDrop')}} descriptor="Diary drop allows diary's to easily connect with users, allowing them to receive products to there door every week" />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <CircleButton text='Servico' image={servico} backgroundColor='#000000' onClick={() => { }} descriptor="A website designed for a client where the designs were provided and made in Pirana CSM" />
+                <CircleButton text='Servico' image={servico} backgroundColor='#000000' onClick={() => { openModal('Servico')}} descriptor="A website designed for a client where the designs were provided and made in Pirana CSM" />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <CircleButton text='Venture Tax' image={venture} backgroundColor='#ffffff' onClick={() => { }} descriptor="A Large website with a lot of small components and blog, made in Pirana CSM" />
+                <CircleButton text='Venture Tax' image={venture} backgroundColor='#ffffff' onClick={() => {openModal('VentureTax') }} descriptor="A Large website with a lot of small components and blog, made in Pirana CSM" />
             </Grid>
         </Grid>
         <Spacer />

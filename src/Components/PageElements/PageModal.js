@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Dialog, IconButton, makeStyles, Typography } from '@material-ui/core';
-import { CandC, Flux8, HoverHavoc, PlanetMiner, UniformExchange, Vrrrr, WebSpares } from '../../Pages/Projects';
+import { CandC, DairyDrop, Flux8, HoverHavoc, PlanetMiner, Servico, SocialSender, UniformExchange, VentureTax, Vrrrr, WebSpares } from '../../Pages/Projects';
 import { Close } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
@@ -36,6 +36,14 @@ function PageModalRender({ open, currentPage, onClose }) {
                 return <WebSpares />;
             case 'UniformExchange':
                 return <UniformExchange />;
+            case 'SocialSender':
+                return <SocialSender />;
+            case 'DairyDrop':
+                return <DairyDrop />;
+            case 'Servico':
+                return <Servico />;
+            case 'VentureTax':
+                return <VentureTax />;
             default:
                 return null;
         }
@@ -43,7 +51,6 @@ function PageModalRender({ open, currentPage, onClose }) {
 
     return <Dialog maxWidth="lg" open={open} onClose={onClose} className={classes.root}>
         <IconButton onClick={onClose} color="secondary" className={classes.closeButton}><Close fontSize="large" /> </IconButton>
-
         {GetPage()}
     </Dialog>
 }
