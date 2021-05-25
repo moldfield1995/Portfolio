@@ -29,7 +29,7 @@ export default function WebSection({openModal}) {
                 <CircleButton text='Web Spares' image={webSpares} backgroundColor='#ffffff' onClick={() => {openModal('WebSpares') }} descriptor="Web Spares is a e-commerce platform specializing in part brake down by blueprint. It is built on Umbraco with a custom React CMS editor." />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <CircleButton text='Uniform Exchange' image={uniformExchange} backgroundColor='#ffffff' onClick={() => { }} descriptor="A digitized version of Uniform Exchange uniform request's system to allow families in need get new uniforms" />
+                <CircleButton text='Uniform Exchange' image={uniformExchange} backgroundColor='#ffffff' onClick={() => {openModal('UniformExchange') }} descriptor="A digitized version of Uniform Exchange uniform request's system to allow families in need get new uniforms" />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
                 <CircleButton text='Social Sender' image={socialSendr} backgroundColor='#ffffff' onClick={() => { }} descriptor="An Automated social media poster that suggested scheduled content and allows you to customize or create your own" />

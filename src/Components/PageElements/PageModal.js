@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Dialog, IconButton, makeStyles, Typography } from '@material-ui/core';
-import { CandC, Flux8, HoverHavoc, PlanetMiner, Vrrrr, WebSpares } from '../../Pages/Projects';
+import { CandC, Flux8, HoverHavoc, PlanetMiner, UniformExchange, Vrrrr, WebSpares } from '../../Pages/Projects';
 import { Close } from '@material-ui/icons';
 
 const useStyles = makeStyles((theme) => ({
@@ -34,6 +34,8 @@ function PageModalRender({ open, currentPage, onClose }) {
                 return <HoverHavoc />;
             case 'WebSpares':
                 return <WebSpares />;
+            case 'UniformExchange':
+                return <UniformExchange />;
             default:
                 return null;
         }
