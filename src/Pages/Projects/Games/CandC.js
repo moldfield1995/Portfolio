@@ -1,8 +1,8 @@
 import React from 'react';
-import { Container, Link, makeStyles, Typography } from '@material-ui/core';
+import { Container, makeStyles, Typography } from '@material-ui/core';
 import Spacer from '../../../Components/Helpers/Spacer';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     youtube: {
         width: '100%',
         height: '50vh',
@@ -19,11 +19,11 @@ export default function CandC() {
         <Typography variant="body2" align="center"> Developed with: Unity </Typography>
         <Spacer />
         <Typography variant="body1">
-            This is my current group project game that we are developing. There are 3 programmers including myself and 4 designers.<br/>
+            This was a game that we are developed during our final year for our group project. There are 3 programmers including myself and 4 designers.<br/>
             <br/>
             This project initially started in Unreal with the intension of designers implementing animation, VFX and doing the shader work. This worked fine but we found Unreal’s Units would sometimes fly of the screen or sometimes be unresponsive. We switched to Unity as the programmers where a lot more familiar and had most of the features we had in unreal implemented within a week.<br/>
             <br/>
-            We are currently approaching beta and have greatly improved the feel of the unit control, the UI and the overall look of the game.
+            My part of the games development was implementing the fog of war, that I user a vertex shader to implement the variation in size and position, the building interaction and UI, and the mining mechanics.
         </Typography>
     </Container>
 }

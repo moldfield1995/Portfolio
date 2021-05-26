@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Link, makeStyles, Typography } from '@material-ui/core';
 import Spacer from '../../../Components/Helpers/Spacer';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     youtube: {
         width: '100%',
         height: '50vh',
@@ -21,9 +21,9 @@ export default function HoverHavoc() {
         <Typography variant="body1">
             Two weeks before Steam winter sale was going to go live we were asked to come up with some ideas for a winter patch then implement, test and release it the day before the winter sale.<br />
             <br />
-            This mostly consisted of us creating additional content on the current work frame. This involved creating a new game mode as well as a new map. Some optimisations were also made as well as completion of some weapons that were in the game but hadn’t been completed.<br />
+            This mostly consisted of us creating additional content on the current work frame. This involved creating a new game mode as well as a new map. Some optimizations were also made as well as completion of some weapons that were in the game but hadn’t been completed.<br />
             <br />
-            For this task I was resposible for fixing bugs that we found in playtesting, finishing the implementations of the weapons, optimising areas of the game where possible and doing the final build and testing.
+            For this task I was responsible for fixing bugs that we found in playtesting, finishing the implementations of the weapons, optimizing areas of the game where possible and doing the final build and testing.
         </Typography>
         <Spacer />
         <Typography variant="body2" align="center">

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Container, Grid, makeStyles, Typography } from '@material-ui/core';
+import { Container, Grid,  Typography } from '@material-ui/core';
 import flux8 from '../../Images/GamesLogos/Flux8.jpg';
 import HoverHavoc from '../../Images/GamesLogos/HoverHavoc.jpg';
 import Vrrr from '../../Images/GamesLogos/Vrrr.jpg';
@@ -8,12 +8,8 @@ import PlanetMiner from '../../Images/GamesLogos/PlanetMiner.jpg';
 import CandC from '../../Images/GamesLogos/CandC.png';
 import CircleButton from '../Helpers/CircleButton';
 import Spacer from '../Helpers/Spacer';
-const useStyles = makeStyles((theme) => ({
-
-}));
 
 export default function GamesSection({ openModal }) {
-    const classes = useStyles();
     return <Container maxWidth="md">
         <Typography variant="h2" component="h3" gutterBottom align='center'>
             Games

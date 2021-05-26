@@ -1,14 +1,11 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core';
 import Blurb from '../Components/PageElements/Blurb';
 import Spacer from '../Components/Helpers/Spacer';
 import WebSection from '../Components/PageElements/WebSection';
 import GamesSection from '../Components/PageElements/GamesSection';
 import PageModal from '../Components/PageElements/PageModal';
+import ResumeSection from '../Components/PageElements/ResumeSection';
 
-const useStyles = makeStyles((theme) => ({
-
-}));
 
 export default function Home() {
     const [currentOpenModal, setCurrentOpenModal] = React.useState(null);
@@ -17,7 +14,6 @@ export default function Home() {
         setCurrentOpenModal(null);
     }, [setCurrentOpenModal])
 
-
     return <div >
         <PageModal open={currentOpenModal !== null} currentPage={currentOpenModal} onClose={closeModalCallback} />
         <Blurb />
@@ -25,5 +21,7 @@ export default function Home() {
         <WebSection openModal={setCurrentOpenModal} />
         <Spacer />
         <GamesSection openModal={setCurrentOpenModal} />
+        <Spacer />
+        <ResumeSection />
     </div>
 }

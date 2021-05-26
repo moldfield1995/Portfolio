@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Dialog, IconButton, makeStyles, Typography } from '@material-ui/core';
+import { Dialog, IconButton, makeStyles } from '@material-ui/core';
 import { AzureSalesAnalyst, CandC, DairyDrop, DocumentDigitization, Flux8, HoverHavoc, MarineTest, PlanetMiner, Servico, SocialSender, UniformExchange, VentureTax, Vrrrr, WebSpares } from '../../Pages/Projects';
 import { Close } from '@material-ui/icons';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     root: {
         '& .MuiContainer-root': {
             padding: '40px 20px'

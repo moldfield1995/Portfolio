@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles, Typography } from '@material-ui/core';
 import background from '../../Images/background.jpg'
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     root: {
         height: '50vh',
         display: 'flex',

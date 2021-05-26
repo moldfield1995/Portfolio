@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Link, makeStyles, Typography } from '@material-ui/core';
 import Spacer from '../../../Components/Helpers/Spacer';
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
     youtube: {
         width: '100%',
         height: '50vh',

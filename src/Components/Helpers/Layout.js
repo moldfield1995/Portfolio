@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core';
 import Hero from '../PageElements/Hero';
 import Spacer from './Spacer';
 import SocialLinks from '../PageElements/SocialLinks';
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(() => ({
 
 }));
 
