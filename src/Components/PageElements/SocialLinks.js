@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, IconButton, makeStyles } from '@material-ui/core';
-import { Facebook, LinkedIn, Twitter } from '@material-ui/icons';
+import { Facebook, GitHub, LinkedIn, Twitter } from '@material-ui/icons';
 
 const useStyles = makeStyles(() => ({
     root: {
@@ -12,8 +12,9 @@ const useStyles = makeStyles(() => ({
 export default function SocialLinks() {
     const classes = useStyles();
     return <Container maxWidth="sm" className={classes.root}>
-        <IconButton href="" color="secondary" ><LinkedIn fontSize="large" /> </IconButton>
-        <IconButton href="" color="secondary" ><Facebook fontSize="large" /> </IconButton>
-        <IconButton href="" color="secondary" ><Twitter fontSize="large" /> </IconButton>
+        <IconButton href="https://www.linkedin.com/in/m-oldfield" target="_blank" rel="noopener noreferrer" color="secondary" ><LinkedIn fontSize="large" /> </IconButton>
+        <IconButton href="https://github.com/moldfield1995/Portfolio" target="_blank" rel="noopener noreferrer" color="secondary" ><GitHub fontSize="large" /> </IconButton>
+        <IconButton href="https://www.facebook.com/matold" target="_blank" rel="noopener noreferrer" color="secondary" ><Facebook fontSize="large" /> </IconButton>
+        <IconButton href="https://twitter.com/moldfield1811" target="_blank" rel="noopener noreferrer" color="secondary" ><Twitter fontSize="large" /> </IconButton>
     </Container>
 }
