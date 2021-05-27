@@ -13,7 +13,7 @@ const useStyles = makeStyles(() => ({
 export default function Vrrrr() {
     const classes = useStyles();
     return <Container maxWidth="md" >
-        <Typography variant="h2" align="center">Vrrrr</Typography>
+        <Typography variant="h3" align="center">Vrrrr</Typography>
         <Spacer />
         <iframe width="560" height="512" src="https://www.youtube.com/embed/8tm5TMq_3SU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className={classes.youtube}></iframe>
         <Typography variant="body2" align="center"> Developed with: Unreal Engine </Typography>

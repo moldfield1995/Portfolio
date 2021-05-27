@@ -4,7 +4,7 @@ import Spacer from '../../../Components/Helpers/Spacer';
 
 export default function AzureSalesAnalyst() {
     return <Container maxWidth="md" >
-        <Typography variant="h2" align="center">Azure Sales Analyst</Typography>
+        <Typography variant="h3" align="center">Azure Sales Analyst</Typography>
         <Spacer />
         <Typography variant="body2" align="center"> Developed with: .Net Core, React.js, Material UI </Typography>
         <Spacer />

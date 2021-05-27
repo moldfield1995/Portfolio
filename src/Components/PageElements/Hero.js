@@ -23,10 +23,10 @@ export default function Hero() {
     const classes = useStyles();
     return <div className={classes.root}>
         <img src={background} alt="background" className={classes.image}/>
-        <Typography variant="h2" component="h1" gutterBottom>
+        <Typography variant="h2" align='center' component="h1" gutterBottom >
             Matthew Oldfield
         </Typography>
-        <Typography variant="h5" component="h2" gutterBottom>
+        <Typography variant="h5" align='center' component="h2" gutterBottom>
             Full stack Web Developer
         </Typography>
     </div>

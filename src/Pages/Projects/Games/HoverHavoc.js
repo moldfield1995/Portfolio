@@ -13,7 +13,7 @@ const useStyles = makeStyles(() => ({
 export default function HoverHavoc() {
     const classes = useStyles();
     return <Container maxWidth="md" >
-        <Typography variant="h2" align="center">Hover Havoc</Typography>
+        <Typography variant="h3" align="center">Hover Havoc</Typography>
         <Spacer />
         <iframe width="560" height="512" src="https://www.youtube.com/embed/SpQdQN3veOI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className={classes.youtube}></iframe>
         <Typography variant="body2" align="center"> Developed with: Unity </Typography>

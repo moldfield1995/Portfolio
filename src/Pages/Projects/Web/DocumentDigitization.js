@@ -4,7 +4,7 @@ import Spacer from '../../../Components/Helpers/Spacer';
 
 export default function DocumentDigitization() {
     return <Container maxWidth="md" >
-        <Typography variant="h2" align="center">Document Digitization and Generation</Typography>
+        <Typography variant="h3" align="center">Document Digitization and Generation</Typography>
         <Spacer />
         <Typography variant="body2" align="center"> Developed with: .Net Framework, Open XML (Docx generation) </Typography>
         <Spacer />

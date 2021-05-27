@@ -14,7 +14,7 @@ export default function ResumeSection() {
             I started with Torchbearer after completing my 4-year Computer games programming course.
             I joined Torchbearer with minimal web development skills with only building static HTML sites,
             and quickly found my place in the team developing the back ends for our websites.
-            At Torchbearer I developed several websites with the team, but with more projects being developed in I started doing the front-end development as well.
+            At Torchbearer I developed several websites with the team, but with more projects being developed I started doing the front-end development as well.
             All the web projects above were developed with torchbearer, with many of the APIs and database schema being done by myself.
         </Typography>
         <Spacer />

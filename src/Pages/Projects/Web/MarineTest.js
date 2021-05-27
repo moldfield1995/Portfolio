@@ -4,7 +4,7 @@ import Spacer from '../../../Components/Helpers/Spacer';
 
 export default function MarineTest() {
     return <Container maxWidth="md" >
-        <Typography variant="h2" align="center">Marine Test and documentation</Typography>
+        <Typography variant="h4" align="center">Marine Test and Documentation</Typography>
         <Spacer />
         <Typography variant="body2" align="center"> Developed with: .Net Core, React.js, Flutter, Material UI </Typography>
         <Spacer />

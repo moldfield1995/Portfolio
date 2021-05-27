@@ -18,7 +18,7 @@ const Images = [{ original: Image1, thumbnail: Image1 }, { original: Image2, thu
 
 export default function VentureTax() {
     return <Container maxWidth="md" >
-        <Typography variant="h2" align="center">Venture Tax</Typography>
+        <Typography variant="h3" align="center">Venture Tax</Typography>
         <Spacer />
         <ImageGallery items={Images} showFullscreenButton infinite showThumbnails showPlayButton={false}></ImageGallery>
         <Typography variant="body2" align="center"> Developed with: .Net Core MVC, Piranha CMS </Typography>
