@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { PageNames } from '../Helpers/Constants';
 import { Dialog, IconButton, makeStyles } from '@material-ui/core';
 import { AzureSalesAnalyst, CandC, DairyDrop, DocumentDigitization, Flux8, HoverHavoc, MarineTest, PlanetMiner, Servico, SocialSender, UniformExchange, VentureTax, Vrrrr, WebSpares } from '../../Pages/Projects';
 import { Close } from '@material-ui/icons';
@@ -22,33 +23,33 @@ function PageModalRender({ open, currentPage, onClose }) {
 
     function GetPage() {
         switch (currentPage) {
-            case 'Flux8':
+            case PageNames.Flux8:
                 return <Flux8 />;
-            case 'CandC':
+            case PageNames.CandC:
                 return <CandC />;
-            case 'PlanetMiner':
+            case PageNames.PlanetMiner:
                 return <PlanetMiner />;
-            case 'Vrrrr':
+            case PageNames.Vrrrr:
                 return <Vrrrr />;
-            case 'HoverHavoc':
+            case PageNames.HoverHavoc:
                 return <HoverHavoc />;
-            case 'WebSpares':
+            case PageNames.WebSpares:
                 return <WebSpares />;
-            case 'UniformExchange':
+            case PageNames.UniformExchange:
                 return <UniformExchange />;
-            case 'SocialSender':
+            case PageNames.SocialSender:
                 return <SocialSender />;
-            case 'DairyDrop':
+            case PageNames.DairyDrop:
                 return <DairyDrop />;
-            case 'Servico':
+            case PageNames.Servico:
                 return <Servico />;
-            case 'VentureTax':
+            case PageNames.VentureTax:
                 return <VentureTax />;
-            case 'AzureSalesAnalyst':
+            case PageNames.AzureSalesAnalyst:
                 return <AzureSalesAnalyst />;
-            case 'DocumentDigitization':
+            case PageNames.DocumentDigitization:
                 return <DocumentDigitization />;
-            case 'MarineTest':
+            case PageNames.MarineTest:
                 return <MarineTest />;
             default:
                 return null;

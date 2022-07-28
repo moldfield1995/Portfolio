@@ -19,9 +19,9 @@ export default function UniformExchange() {
         <Typography variant="body2" align="center"> Developed with: .Net Core, React.js, Material UI </Typography>
         <Spacer />
         <Typography variant="body1">
-            Uniform Exchange is a digitization of a uniform request form for the charity, to make it easier for parents and schools to make requests and for the charity to manage them.<br/>
+            Uniform Exchange is a digitization of a uniform request form, to make it easier for parents and schools to make requests and for the charity to manage them.<br/>
             <br/>
-            The project was done solely by myself, and was initially going to use a headless CMS, but I was given a tight time scale for this project as it was done for free, so I created a custom product management system to meet their specification.<br/>
+            The project was done solely by myself, and was initially going to use a headless CMS. I was given a tight time scale for this project as it was done for free, so I created a custom product management system to meet their specification.<br/>
             <br/>
             The system allows creation of products with typed variant system that can handled multiple variant types, a stock system to allow limited product stock (Not currently utilized), and an image system that utilizes the variants to update when a variant is selected to show the user the relevant images (this is not utilized at current)<br/>
             <br/>

@@ -4,15 +4,21 @@ import { Button, makeStyles, Paper } from '@material-ui/core';
 
 const useStyles = makeStyles(() => ({
     paper: {
-        display: 'flex',
-        flexDirection: 'column',
-        padding: '10px',
-        alignItems: 'center',
-        '& .descriptor': {
-            marginTop: 20,
-        }
+        background: 'rgba(255, 255, 255, 0.18)',
+        '& .MuiButton-label':{
+            display: 'flex',
+            flexDirection: 'column',
+            padding: '10px',
+            alignItems: 'center',
+            '& .descriptor': {
+                marginTop: 20,
+            }
+        },
     },
-    button: {
+    icon: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
         height: 100,
         width: 100,
         borderRadius: 50,
@@ -22,26 +28,28 @@ const useStyles = makeStyles(() => ({
             height: '100%',
             width: '100%',
             '&.small':{
-                maxWidth: 65
+                maxWidth: 65,
+                objectFit: 'contain'
             },
         },
         '& svg':{
             fontSize: 60
-        }
+        },
+
     },
 }));
 
 function CircleButtonRender({ text, image, icon, fullSize, descriptor, backgroundColor, textColor, onClick }) {
     const classes = useStyles({ backgroundColor, textColor });
-    return <Paper className={classes.paper} onClick={onClick} >
-        <Button className={classes.button} onClick={onClick}>
+    return <Button className={classes.paper} onClick={onClick} >
+        <div className={classes.icon}>
             {image === undefined ? null : <img src={image} alt={text} className={fullSize ? '' : 'small'}/>}
             {icon === undefined ? null : icon}
-        </Button>
+        </div>
         <span className="descriptor">
             {descriptor}
         </span>
-    </Paper>
+    </Button>
 }
 
 const CircleButton = React.memo(CircleButtonRender,

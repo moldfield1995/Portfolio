@@ -1,0 +1,16 @@
+export const PageNames ={
+    Flux8: 'Flux8',
+    CAndC: 'CAndC',
+    PlanetMiner: 'PlanetMiner',
+    Vrrrr: 'Vrrrr',
+    HoverHavoc: 'HoverHavoc',
+    WebSpares: 'WebSpares',
+    UniformExchange: 'UniformExchange',
+    SocialSender: 'SocialSender',
+    DairyDrop: 'DairyDrop',
+    Servico: 'Servico',
+    VentureTax: 'VentureTax',
+    AzureSalesAnalyst: 'AzureSalesAnalyst',
+    DocumentDigitization: 'DocumentDigitization',
+    MarineTest: 'MarineTest',
+};

@@ -1,4 +1,5 @@
 import React from "react";
+import { PageNames } from '../Components/Helpers/Constants';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Layout from "../Components/Helpers/Layout";
 import Home from "../Pages/Home"
@@ -13,47 +14,50 @@ function App() {
           <Route path="/" exact>
             <Home />
           </Route>
-          <Route path="/Flux8">
+          <Route path={`/${PageNames.Flux8}`}>
             <Flux8 />
           </Route>
-          <Route path="/CandC">
+          <Route path={`/${PageNames.CandC}`}>
             <CandC />
           </Route>
-          <Route path="/PlanetMiner">
+          <Route path={`/${PageNames.PlanetMiner}`}>
             <PlanetMiner />
           </Route>
-          <Route path="/Vrrrr">
+          <Route path={`/${PageNames.Vrrrr}`}>
             <Vrrrr />
           </Route>
-          <Route path="/HoverHavoc">
+          <Route path={`/${PageNames.HoverHavoc}`}>
             <HoverHavoc />
           </Route>
-          <Route path="/WebSpares">
+          <Route path={`/${PageNames.WebSpares}`}>
             <WebSpares />
           </Route>
-          <Route path="/UniformExchange">
+          <Route path={`/${PageNames.UniformExchange}`}>
             <UniformExchange />
           </Route>
-          <Route path="/SocialSender">
+          <Route path={`/${PageNames.SocialSender}`}>
             <SocialSender />
           </Route>
-          <Route path="/DairyDrop">
+          <Route path={`/${PageNames.DairyDrop}`}>
             <DairyDrop />
           </Route>
-          <Route path="/Servico">
+          <Route path={`/${PageNames.Servico}`}>
             <Servico />
           </Route>
-          <Route path="/VentureTax">
+          <Route path={`/${PageNames.VentureTax}`}>
             <VentureTax />
           </Route>
-          <Route path="/AzureSalesAnalyst">
+          <Route path={`/${PageNames.AzureSalesAnalyst}`}>
             <AzureSalesAnalyst />
           </Route>
-          <Route path="/DocumentDigitization">
+          <Route path={`/${PageNames.DocumentDigitization}`}>
             <DocumentDigitization />
           </Route>
-          <Route path="/MarineTest">
+          <Route path={`/${PageNames.MarineTest}`}>
             <MarineTest />
+          </Route>
+          <Route >
+            <Home />
           </Route>
         </Switch>
       </Router>
