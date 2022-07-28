@@ -1,6 +1,6 @@
 import React from "react";
 import { PageNames } from '../Components/Helpers/Constants';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, HashRouter } from "react-router-dom";
 import Layout from "../Components/Helpers/Layout";
 import Home from "../Pages/Home"
 import { AzureSalesAnalyst, CandC, DairyDrop, DocumentDigitization, Flux8, HoverHavoc, MarineTest, PlanetMiner, Servico, SocialSender, UniformExchange, VentureTax, Vrrrr, WebSpares } from "../Pages/Projects";
@@ -9,7 +9,7 @@ function App() {
 
   return (
     <Layout>
-      <Router>
+      <HashRouter basename="/Portfolio">
         <Switch>
           <Route path="/" exact>
             <Home />
@@ -60,7 +60,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
-      </Router>
+      </HashRouter>
     </Layout>
   );
 }

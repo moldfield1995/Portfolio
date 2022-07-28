@@ -1,6 +1,7 @@
 import React from 'react';
-import { Container, Link, Typography } from '@material-ui/core';
+import { Container, Typography } from '@material-ui/core';
 import Spacer from '../../Components/Helpers/Spacer';
+import { Link } from "react-router-dom";
 
 export default function ResumeSection() {
     return <Container maxWidth="sm" >
@@ -30,9 +31,9 @@ export default function ResumeSection() {
             the studio’s history and current projects. I was responsible for
             implementing or tweaking features, and oversaw Git
             management, minor tech support, marketing for our game and
-            attending events on behalf of the studio. We released <Link href="/Flux8" color="secondary">Flux8</Link> in August
+            attending events on behalf of the studio. We released <Link to="/Flux8" className='MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorSecondary'>Flux8</Link> in August
             and worked on internal projects such as a dungeon defence game for
-            mobile, and a <Link href="/Vrrrr" color="secondary">pirate VR golf game</Link>.
+            mobile, and a <Link to="/Vrrrr" className='MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorSecondary'>pirate VR golf game</Link>.
          </Typography>
     </Container>
 }
