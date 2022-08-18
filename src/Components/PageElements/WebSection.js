@@ -47,7 +47,7 @@ export default function WebSection({openModal}) {
         </Typography>
         <Grid container spacing={2}>
             <Grid item xs={12} sm={6} md={4} lg={3}>
-                <CircleButton text='Azure Sales Analyst' image={azureIcon} backgroundColor='#ffffff' onClick={() => {openModal(PageNames.AzureSalesAnalyst) }} descriptor="A tool that took azure cloud customers and pricing, alongside a dynamic query service, to generate potential upsells." />
+                <CircleButton text='Azure Sales Analyst' image={azureIcon} backgroundColor='#ffffff' onClick={() => {openModal(PageNames.AzureSalesAnalyst) }} descriptor="A tool that took azure cloud customers and pricing, alongside a dynamic query service, to generate potential up-sell." />
             </Grid>
             <Grid item xs={12} sm={6} md={4} lg={3}>
                 <CircleButton text='Marine Test and Documentation' icon={<DirectionsBoat/>} backgroundColor='#ffffff' onClick={() => { openModal(PageNames.MarineTest)}} descriptor="A mobile and web application to test yacht crew and track their certification." />

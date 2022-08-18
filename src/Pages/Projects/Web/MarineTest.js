@@ -11,7 +11,7 @@ export default function MarineTest() {
         <Typography variant="body1">
             This project was for a yacht company that was looking at digitizing and improving the mandatory testing and training, that was extended to include proof of certification and rest.<br />
             <br />
-            The initial spec only required one API with mobile app and admin web app, btu the scope soon extended requiring an extra Instance and a shared user base. This required converting current solutions to use a API to manage user’s data, which APIs have access to each user, and handle when a user is updated on one platform that the relevant data is updated across the platform.<br />
+            The initial spec only required one API with mobile app and admin web app, but the scope soon extended requiring an extra Instance and a shared user base. This required converting current solutions to use a API to manage user’s data, which APIs have access to each user, and handle when a user is updated on one platform that the relevant data is updated across the platform.<br />
             <br />
             The mobile apps had to function offline and sync up when at port for a stable connection. This required using a local SQL lite data base and having a system to sync down all required data like questions, documentation, and previous submissions. I did this by breaking it down into sections defined by the relevant API request to give feed back to the user and help with future support.<br />
             <br />

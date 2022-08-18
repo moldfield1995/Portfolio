@@ -32,7 +32,7 @@ export default function ResumeSection() {
             implementing or tweaking features, and oversaw Git
             management, minor tech support, marketing for our game and
             attending events on behalf of the studio. We released <Link to="/Flux8" className='MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorSecondary'>Flux8</Link> in August
-            and worked on internal projects such as a dungeon defence game for
+            and worked on internal projects such as a dungeon defense game for
             mobile, and a <Link to="/Vrrrr" className='MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorSecondary'>pirate VR golf game</Link>.
          </Typography>
     </Container>
