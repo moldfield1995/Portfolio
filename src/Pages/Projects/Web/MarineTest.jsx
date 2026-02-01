@@ -17,6 +17,5 @@ export default function MarineTest() {
             <br />
             Part of the proof of certification required data that the user had filled in and sometimes had singed off by a superior, to be added into a PDF form and allow the crew member to download. There were no-good cost-effective solutions for .Net core, so the choice was made for the API to format the data for each field, the use a front end package called pdf-lib, to then edit the document and add the data. This worked well and this was extended to add additional information at the end of the document.<br />
         </Typography>
-        <Spacer />
     </Container>
 }

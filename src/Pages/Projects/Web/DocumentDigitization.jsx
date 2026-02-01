@@ -15,6 +15,5 @@ export default function DocumentDigitization() {
             <br />
             This not only required me to copy the styles from current documents, but also build a system that would parse through the HTML generating the relevant Word or PowerPoint elements, but also recessively look at any styles applied to the HTML elements and convert them to the closest equivalent.<br />
         </Typography>
-        <Spacer />
     </Container>
 }

@@ -26,9 +26,5 @@ export default function SocialSender() {
             <br />
             On the front end I did the admin portal for managing content and implementing the CRON paten generator allowing admins and users to flexibly schedule content<br />
         </Typography>
-        <Spacer />
-        <Typography variant="body2" align="center">
-            <Link href="https://socialsendr.com/" target="_blank" rel="noopener noreferrer" color="secondary">View the Site</Link>
-        </Typography>
     </Container>
 }

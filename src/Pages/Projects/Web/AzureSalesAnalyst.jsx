@@ -17,9 +17,5 @@ export default function AzureSalesAnalyst() {
             <br />
             This was all brought together with a React web app, that displayed an overview of all generated up-sells, and let them dive into them to a per customer level, with relevant documentation and links provided why this upsell was suggested.<br />
         </Typography>
-        <Spacer />
-        <Typography variant="body2" align="center">
-            <Link href="https://servicowebsite.azurewebsites.net/" target="_blank" rel="noopener noreferrer" color="secondary">View the Site</Link>
-        </Typography>
     </Container>
 }

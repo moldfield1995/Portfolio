@@ -27,9 +27,5 @@ export default function WebSpares() {
             <br />
             Lastly after implementing a few products in the demo site, they requested a react app that would sit on the back end that would create a product and page at the same time. They requested most of the CMS features to be available in the react app, that required reverse engineering the requests made by the current CMS and then implementation. <br />
         </Typography>
-        <Spacer />
-        <Typography variant="body2" align="center">
-            <Link href="https://app.webspares.net/trailer-low-loader/" target="_blank" rel="noopener noreferrer" color="secondary">View the Site</Link>
-        </Typography>
     </Container>
 }

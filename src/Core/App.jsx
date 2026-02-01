@@ -17,7 +17,7 @@ function App() {
           <Route path={`/${PageNames.Flux8}`}>
             <Flux8 />
           </Route>
-          <Route path={`/${PageNames.CandC}`}>
+          <Route path={`/${PageNames.CAndC}`}>
             <CandC />
           </Route>
           <Route path={`/${PageNames.PlanetMiner}`}>

@@ -25,7 +25,7 @@ function PageModalRender({ open, currentPage, onClose }) {
         switch (currentPage) {
             case PageNames.Flux8:
                 return <Flux8 />;
-            case PageNames.CandC:
+            case PageNames.CAndC:
                 return <CandC />;
             case PageNames.PlanetMiner:
                 return <PlanetMiner />;

@@ -23,9 +23,5 @@ export default function Servico() {
             <br />
             The designs also included two different heroes for the home page and gallery, I incorporated this in the CMS to allow them to toggle between either colour scheme later if they wanted to change the imagery.
         </Typography>
-        <Spacer />
-        <Typography variant="body2" align="center">
-            <Link href="https://servicowebsite.azurewebsites.net/" target="_blank" rel="noopener noreferrer" color="secondary">View the Site</Link>
-        </Typography>
     </Container>
 }

@@ -25,9 +25,5 @@ export default function DairyDrop() {
             <br />
             To handle this, we switched to Stripe taking payment 24h ahead for new orders and gave active customers 24h to resolve payment issues, as well as better notification to the dairies. <br />
         </Typography>
-        <Spacer />
-        <Typography variant="body2" align="center">
-            <Link href="https://app.dairydrop.com/" target="_blank" rel="noopener noreferrer" color="secondary">View the Site</Link>
-        </Typography>
     </Container>
 }
