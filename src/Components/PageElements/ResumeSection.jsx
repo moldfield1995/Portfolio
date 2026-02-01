@@ -7,9 +7,19 @@ export default function ResumeSection() {
     return <Container maxWidth="sm" >
         <Typography variant="h3" align="center">Employment </Typography>
         <Spacer />
+        <Typography variant="h4" align="center" gutterBottom>Radar Healthcare</Typography>
+        <Typography variant="body1" align="center">
+            2022-Current
+        </Typography>
+        <Typography variant="body1" align="center">
+            At Radar, I progressed from the BAU team to the API team, where I developed new sytems for intigating with our customers,
+            alongside migrating legacy code to .NET Standard. Now in the Framework and Core team, I focus on Azure adoption and resolving
+            technical debt to future-proof the application.
+        </Typography>
+        <Spacer />
         <Typography variant="h4" align="center" gutterBottom>Torchbearer Interactive</Typography>
         <Typography variant="body1" align="center">
-            2018-Current
+            2018-2022
         </Typography>
         <Typography variant="body1" align="center">
             I started with Torchbearer after completing my 4-year Computer games programming course.

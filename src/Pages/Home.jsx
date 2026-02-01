@@ -19,11 +19,11 @@ export default function Home() {
         <PageModal open={currentOpenModal !== null} currentPage={currentOpenModal} onClose={closeModalCallback} />
         <Blurb />
         <Spacer />
+        <ResumeSection />
+        <Spacer />
         <WebSection openModal={setCurrentOpenModal} />
         <Spacer />
         <GamesSection openModal={setCurrentOpenModal} />
-        <Spacer />
-        <ResumeSection />
         <Spacer />
         <EducationSection />
     </div>
